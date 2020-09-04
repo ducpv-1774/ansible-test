@@ -1,24 +1,16 @@
-# Role: ruby-with-rvm
+# Guide running script for ubuntu
 
-### Tasks file
-- [x] main.yml file
-- [x] rvm.yml file
-- [x] rubies.yml file
+### Step 1: Running script join-ad for join domain
+```
+$ sh join-ad
+```
 
-### After complete tasks
-- Check rvm version on deploy user
+### Step 2: Running script sophos antivirus
 ```
-$ ~./rvm/bin/rvm version
-rvm 1.29.10 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+$ sh scriptSophosFileServer-HN
 ```
-- Check ruby version on deploy user
+
+### step 3: Running script check iso
 ```
-$ .rvm/bin/rvm alias list default
-default => ruby-2.6.3
+$ sh iso-script-ubuntu
 ```
-- Check bundler version
-```
-$ bundle -v
-Bundler version 2.0.2
-```
- 
