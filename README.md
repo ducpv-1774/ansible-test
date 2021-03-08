@@ -1,16 +1,14 @@
 # Guide after run ansible playbook
 
-### Step 1: Input password and user
+### Step 1: Input password to .vault file
 ```
-$ sh join-ad
-```
-
-### Step 2: Running script sophos antivirus
-```
-$ sh scriptSophosFileServer-HN
+$ touch .vault
 ```
 
-### step 3: Running script check iso
+### Step 2: Input IP host to labhok_infra/inventory/staging
+
+
+### step 3: Run playbook file for staging
 ```
-$ sh iso-script-ubuntu
+$ ansible-playbook -i inventory/staging playbook-stg.yml
 ```
