@@ -1,6 +1,6 @@
-# Guide running script for ubuntu
+# Guide after run ansible playbook
 
-### Step 1: Running script join-ad for join domain
+### Step 1: Input password and user
 ```
 $ sh join-ad
 ```
