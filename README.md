@@ -1,4 +1,4 @@
-# Guide after run ansible playbook
+# Guide to run ansible playbook
 
 ### Step 1: Input password to .vault file
 ```
