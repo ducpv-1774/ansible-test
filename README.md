@@ -1,13 +1,4 @@
-# IV. Guide to run ansible playbook
-- Step 1: Input password to .vault file
-```
-$ touch .vault
-```
+# With Terraform
 
-- Step 2: Input IP host to labhok_infra/inventory/staging
-
-
-- step 3: Run playbook file for staging
-```
-$ ansible-playbook -i inventory/staging playbook-stg.yml
-```
+## Config tools
+### 1.1 Config aws-cli & aws-profile
